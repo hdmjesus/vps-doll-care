@@ -1,4 +1,4 @@
-# platzibadge-react
+# Default-react
 
 Empty project.
 
