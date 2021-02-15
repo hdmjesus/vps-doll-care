@@ -60,7 +60,7 @@ const config = {
       template: path.resolve(__dirname, './public/index.html'),
       filename: './index.html',
       //Asi agregamos el favicon
-      favicon: path.resolve(__dirname, 'src/statics/favicon.png'),
+      favicon: path.resolve(__dirname, 'src/statics/ICONS/vps.png'),
     }),
   ],
 };
