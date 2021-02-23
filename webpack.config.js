@@ -28,11 +28,16 @@ const config = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(s*)css$/,
+        test: /\.css$/,
         use: [
-          { loader: MiniCssExtractPlugin.loader },
-          'css-loader',
-          'sass-loader',
+          MiniCssExtractPlugin.loader,
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+            },
+          },
+          'postcss-loader',
         ],
       },
 
