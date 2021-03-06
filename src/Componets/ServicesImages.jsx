@@ -17,7 +17,7 @@ import cejasMobile from '@/statics/IMG/mobile/pexels-cottonbro-4154199.webp';
 
 const ServicesImages = () => {
   return (
-    <article className='services'>
+    <article className='services flex flex-wrap justify-center'>
       <picture class='service__images'>
         <source media='(min-width:768px)' srcset={exfoliacionDesktop} />
         <img src={exfoliacionMobile} alt='Servicio de exfoliacion' />

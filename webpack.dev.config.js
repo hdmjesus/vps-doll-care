@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const config = {
   entry: {
@@ -70,6 +71,9 @@ const config = {
       filename: './index.html',
       //Asi agregamos el favicon
       favicon: path.resolve(__dirname, 'src/statics/ICONS/vps.png'),
+    }),
+    new CopyPlugin({
+      patterns: [{ from: 'src/statics/IMG', to: 'images' }],
     }),
   ],
 };

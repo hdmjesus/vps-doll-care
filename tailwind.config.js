@@ -3,9 +3,8 @@ module.exports = {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
-  important: false,
-  purge: [],
-  theme: {
+  
+    theme: {
     fontFamily: { title: ['Markazi Text'], body: ['Montserrat'] },
     screens: {
       xsm: '400px',
@@ -16,6 +15,8 @@ module.exports = {
     },
     minWidth: {
       0: '0',
+      150: '150px',
+      200: '200px',
       '1/4': '25%',
       '1/2': '50%',
       '3/4': '75%',
@@ -28,8 +29,10 @@ module.exports = {
         second: '#22706A',
         variants: '#F08D78',
         details: '#6E8A87',
+        black: '#302f2f',
         gray: '#CFCFCF',
         body: '#f2f2f2',
+        actions: 'rgba(0,0,0,0.3)',
       },
       fontSize: {
         '9xl': '9rem',

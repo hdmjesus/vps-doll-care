@@ -3,13 +3,15 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const HtmlCriticalPlugin = require('html-critical-webpack-plugin');
+// const HtmlCriticalPlugin = require('html-critical-webpack-plugin');
 const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
-// .BundleAnalyzerPlugin;
+const CopyPlugin = require('copy-webpack-plugin');
+
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
+  .BundleAnalyzerPlugin;
 const config = {
   entry: { app: path.resolve(__dirname, './src/index.js') },
   output: {
@@ -72,7 +74,7 @@ const config = {
       template: './public/index.html',
       filename: './index.html',
       //Asi agregamos el favicon
-      favicon: path.resolve(__dirname, 'src/statics/favicon.png'),
+      favicon: path.resolve(__dirname, 'src/statics/ICONS/vps.png'),
     }),
     // Agrega atributos a la etiqueta script de cada entry
     new ScriptExtHtmlWebpackPlugin({
@@ -90,19 +92,19 @@ const config = {
       chunkFilename: 'css/[id].[chunkhash].css',
     }),
     // Determina el css critico para la carga inicial de nuestra web
-    new HtmlCriticalPlugin({
-      base: path.join(path.resolve(__dirname), 'dist/'),
-      src: 'index.html',
-      dest: 'index.html',
-      inline: true,
-      minify: true,
-      extract: true,
-      width: 375,
-      height: 565,
-      penthouse: {
-        blockJSRequests: false,
-      },
-    }),
+    // new HtmlCriticalPlugin({
+    //   base: path.join(path.resolve(__dirname), 'dist/'),
+    //   src: 'index.html',
+    //   dest: 'index.html',
+    //   inline: true,
+    //   minify: true,
+    //   extract: true,
+    //   width: 375,
+    //   height: 565,
+    //   penthouse: {
+    //     blockJSRequests: false,
+    //   },
+    // }),
     // Trae las referencias de los modulos core de nuestra app
     new webpack.DllReferencePlugin({
       manifest: require('./modules-manifest.json'),
@@ -113,7 +115,10 @@ const config = {
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['**/app.*'],
     }),
-    // new BundleAnalyzerPlugin(),
+    new CopyPlugin({
+      patterns: [{ from: 'src/statics/IMG', to: 'images' }],
+    }),
+    new BundleAnalyzerPlugin(),
   ],
   optimization: {
     minimizer: [new TerserPlugin(), new OptimizeCSSAssetsPlugin()],

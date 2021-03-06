@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'Montserrat', serif;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+}
+
+.banner__button {
+  width: 90%;
+}
+
+.services img {
+  min-height: 140px;
+  height: 150px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .services img {
+    width: 200px;
+  }
+  .service__images {
+    margin-left: 15px;
+  }
+  .service__images img {
+    border-radius: 5px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .services img {
+    width: 250px;
+  }
+  .service__images {
+    margin-left: 15px;
+  }
+  .services__icons {
+    margin-right: 20px;
+  }
+}
+.services__icons {
+  min-width: 50px;
+  max-width: 100px;
+  width: 50%;
+  margin-right: 15px;
+  text-align: center;
+  font-family: 'Montserrat', serif;
+  font-size: 10px;
+}
+
+.contactoInfo {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+}
+
+.contactoInfo__text {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}

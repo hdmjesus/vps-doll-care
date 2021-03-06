@@ -1,82 +1,183 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve">
-<g>
-	<g>
-		<rect x="184" y="416" width="128" height="16"/>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 496 496"
+   style="enable-background:new 0 0 496 496;"
+   xml:space="preserve"
+   sodipodi:docname="body-lotion.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata6515"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs6513" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="873"
+   inkscape:window-height="480"
+   id="namedview6511"
+   showgrid="false"
+   inkscape:zoom="0.47580645"
+   inkscape:cx="248"
+   inkscape:cy="248"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="g6454" />
+<g
+   id="g6442">
+	<g
+   id="g6440"
+   style="fill:#ff5555;fill-opacity:1">
+		<rect
+   x="184"
+   y="416"
+   width="128"
+   height="16"
+   id="rect6438"
+   style="fill:#ff5555;fill-opacity:1" />
 	</g>
 </g>
-<g>
-	<g>
-		<path d="M297.944,88c-8.544,0-16.584,3.328-22.632,9.376l-8.968,8.968l11.312,11.312l8.968-8.968
-			c3.024-3.024,7.04-4.688,11.32-4.688H344V88H297.944z"/>
+<g
+   id="g6448"
+   style="fill:#ff5555;fill-opacity:1">
+	<g
+   id="g6446"
+   style="fill:#ff5555;fill-opacity:1">
+		<path
+   d="M297.944,88c-8.544,0-16.584,3.328-22.632,9.376l-8.968,8.968l11.312,11.312l8.968-8.968    c3.024-3.024,7.04-4.688,11.32-4.688H344V88H297.944z"
+   id="path6444"
+   style="fill:#ff5555;fill-opacity:1" />
 	</g>
 </g>
-<g>
-	<g>
-		<path d="M220.688,97.376c-6.04-6.048-14.08-9.376-22.632-9.376H152v16h46.056c4.272,0,8.296,1.664,11.32,4.688l8.968,8.968
-			l11.312-11.312L220.688,97.376z"/>
+<g
+   id="g6454">
+	<g
+   id="g6452"
+   style="fill:#ff5555;fill-opacity:1">
+		<path
+   d="M220.688,97.376c-6.04-6.048-14.08-9.376-22.632-9.376H152v16h46.056c4.272,0,8.296,1.664,11.32,4.688l8.968,8.968    l11.312-11.312L220.688,97.376z"
+   id="path6450"
+   style="fill:#ff5555;fill-opacity:1" />
 	</g>
 </g>
-<g>
-	<g>
-		<path d="M496,352v-16h-48V126.504c0-26.448-18.032-48.928-43.848-54.664L304,49.584V0h-16v62.416l112.68,25.04
-			c18.44,4.096,31.32,20.152,31.32,39.048V336h-32V192c0-13.232-10.768-24-24-24h-56v-16H120c-13.232,0-24,10.768-24,24v160H64
-			V126.504c0-18.896,12.88-34.952,31.32-39.048L208,62.416V0h-16v49.584L91.848,71.84C66.032,77.576,48,100.056,48,126.504V336H0v16
-			h136v3.056L126.112,360C112.472,366.816,104,380.528,104,395.776V472c0,13.232,10.768,24,24,24h240c13.232,0,24-10.768,24-24
-			v-76.224c0-15.248-8.472-28.96-22.112-35.776L360,355.056V352H496z M112,336V176c0-4.408,3.592-8,8-8h184v119.904
-			C289.24,279.032,270.472,272,248,272c-51.128,0-83.096,36.328-92.048,48H136v16H112z M318.68,320H177.256
-			c12.92-13.152,37.24-32,70.744-32C281.336,288,305.704,306.848,318.68,320z M336,480H160v-72c0-4.408,3.592-8,8-8h160
-			c4.408,0,8,3.592,8,8V480z M362.736,374.312C370.92,378.4,376,386.624,376,395.776V472c0,4.408-3.592,8-8,8h-16v-72
-			c0-13.232-10.768-24-24-24H168c-13.232,0-24,10.768-24,24v72h-16c-4.408,0-8-3.592-8-8v-76.224c0-9.152,5.08-17.376,13.264-21.464
-			L145.888,368H288v-16H152v-16h192v16h-40v16h46.112L362.736,374.312z M340.048,320c-3.408-4.44-10.176-12.4-20.048-20.632V184h56
-			c4.408,0,8,3.592,8,8v144h-24v-16H340.048z"/>
+<g
+   id="g6460"
+   style="fill:#ff5555;fill-opacity:1">
+	<g
+   id="g6458"
+   style="fill:#ff5555;fill-opacity:1">
+		<path
+   d="M496,352v-16h-48V126.504c0-26.448-18.032-48.928-43.848-54.664L304,49.584V0h-16v62.416l112.68,25.04    c18.44,4.096,31.32,20.152,31.32,39.048V336h-32V192c0-13.232-10.768-24-24-24h-56v-16H120c-13.232,0-24,10.768-24,24v160H64    V126.504c0-18.896,12.88-34.952,31.32-39.048L208,62.416V0h-16v49.584L91.848,71.84C66.032,77.576,48,100.056,48,126.504V336H0v16    h136v3.056L126.112,360C112.472,366.816,104,380.528,104,395.776V472c0,13.232,10.768,24,24,24h240c13.232,0,24-10.768,24-24    v-76.224c0-15.248-8.472-28.96-22.112-35.776L360,355.056V352H496z M112,336V176c0-4.408,3.592-8,8-8h184v119.904    C289.24,279.032,270.472,272,248,272c-51.128,0-83.096,36.328-92.048,48H136v16H112z M318.68,320H177.256    c12.92-13.152,37.24-32,70.744-32C281.336,288,305.704,306.848,318.68,320z M336,480H160v-72c0-4.408,3.592-8,8-8h160    c4.408,0,8,3.592,8,8V480z M362.736,374.312C370.92,378.4,376,386.624,376,395.776V472c0,4.408-3.592,8-8,8h-16v-72    c0-13.232-10.768-24-24-24H168c-13.232,0-24,10.768-24,24v72h-16c-4.408,0-8-3.592-8-8v-76.224c0-9.152,5.08-17.376,13.264-21.464    L145.888,368H288v-16H152v-16h192v16h-40v16h46.112L362.736,374.312z M340.048,320c-3.408-4.44-10.176-12.4-20.048-20.632V184h56    c4.408,0,8,3.592,8,8v144h-24v-16H340.048z"
+   id="path6456"
+   style="fill:#ff5555;fill-opacity:1" />
 	</g>
 </g>
-<g>
-	<g>
-		<rect x="240" y="448" width="16" height="16"/>
+<g
+   id="g6466"
+   style="fill:#ff5555;fill-opacity:1">
+	<g
+   id="g6464"
+   style="fill:#ff5555;fill-opacity:1">
+		<rect
+   x="240"
+   y="448"
+   width="16"
+   height="16"
+   id="rect6462"
+   style="fill:#ff5555;fill-opacity:1" />
 	</g>
 </g>
-<g>
-	<g>
-		<rect x="280" y="448" width="16" height="16"/>
+<g
+   id="g6472"
+   style="fill:#ff5555;fill-opacity:1">
+	<g
+   id="g6470"
+   style="fill:#ff5555;fill-opacity:1">
+		<rect
+   x="280"
+   y="448"
+   width="16"
+   height="16"
+   id="rect6468"
+   style="fill:#ff5555;fill-opacity:1" />
 	</g>
 </g>
-<g>
-	<g>
-		<rect x="200" y="448" width="16" height="16"/>
+<g
+   id="g6478"
+   style="fill:#ff5555;fill-opacity:1">
+	<g
+   id="g6476"
+   style="fill:#ff5555;fill-opacity:1">
+		<rect
+   x="200"
+   y="448"
+   width="16"
+   height="16"
+   id="rect6474"
+   style="fill:#ff5555;fill-opacity:1" />
 	</g>
 </g>
-<g>
+<g
+   id="g6480">
 </g>
-<g>
+<g
+   id="g6482">
 </g>
-<g>
+<g
+   id="g6484">
 </g>
-<g>
+<g
+   id="g6486">
 </g>
-<g>
+<g
+   id="g6488">
 </g>
-<g>
+<g
+   id="g6490">
 </g>
-<g>
+<g
+   id="g6492">
 </g>
-<g>
+<g
+   id="g6494">
 </g>
-<g>
+<g
+   id="g6496">
 </g>
-<g>
+<g
+   id="g6498">
 </g>
-<g>
+<g
+   id="g6500">
 </g>
-<g>
+<g
+   id="g6502">
 </g>
-<g>
+<g
+   id="g6504">
 </g>
-<g>
+<g
+   id="g6506">
 </g>
-<g>
+<g
+   id="g6508">
 </g>
 </svg>

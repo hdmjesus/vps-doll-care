@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Footer = () => {
+  const [year, setYear] = useState(Number);
+  const date = new Date();
+
+  useEffect(() => {
+    setYear(date.getFullYear());
+  }, []);
   return (
-    <footer>
-      <hr />
-      <p>&copy; Vps Doll 2021</p>
+    <footer className='p-3'>
+      <hr className='w-3/4 m-auto text-details' />
+      <p className='text-center text-black mt-3'>&copy; Vps Doll {year}</p>
     </footer>
   );
 };

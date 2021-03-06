@@ -11,8 +11,8 @@ const Home = () => {
       <Header />
       <Banner />
       <Services />
-      <hr />
-      <section className='desktop-view'>
+      <hr className=' w-3/4 m-auto text-details' />
+      <section className='desktop-view mb-10 lg:flex lg:flex-row-reverse lg:w-3/4 m-auto'>
         <Contacto />
         <Feedback />
       </section>
