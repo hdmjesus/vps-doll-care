@@ -3,8 +3,8 @@ module.exports = {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
-  
-    theme: {
+
+  theme: {
     fontFamily: { title: ['Markazi Text'], body: ['Montserrat'] },
     screens: {
       xsm: '400px',
@@ -33,6 +33,9 @@ module.exports = {
         gray: '#CFCFCF',
         body: '#f2f2f2',
         actions: 'rgba(0,0,0,0.3)',
+        BGmenuMobile: '#353131',
+        fontMenuMobile: '#f5f0f0',
+        menuMobile: '#353131',
       },
       fontSize: {
         '9xl': '9rem',

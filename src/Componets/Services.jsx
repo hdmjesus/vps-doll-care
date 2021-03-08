@@ -3,7 +3,9 @@ import ServicesImages from '@/Componets/ServicesImages';
 import ServicesIcons from '@/Componets/ServicesIcons';
 const Services = () => {
   return (
-    <section className='services w-4/5 lg:w-full my-8 mx-auto' id='servicios'>
+    <section
+      className='services w-4/5 lg:w-full my-8 mx-auto'
+      id='servicios mt-72'>
       <ServicesImages />
       <h2 className='my-5 font-title text-4xl text-center text-black'>
         Servicios
