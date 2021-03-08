@@ -7,30 +7,30 @@ import pestañasIcon from '@/statics/ICONS/eye_84077.svg';
 
 const ServicesIcon = () => {
   return (
-    <article className='services flex flex-wrap justify-center'>
+    <article id='servicios' className='services flex flex-wrap justify-center'>
       <figure className='services__icons'>
         <img className='w-full' src={facialIcon} alt='facial Icon' />
-        <figcaption className='sm:text-sm'>Limpieza facial</figcaption>
+        <figcaption className='text-sm'>Limpieza facial</figcaption>
       </figure>
 
       <figure className='services__icons'>
         <img src={depilacionIcon} alt='depilacion Icon' />
-        <figcaption className='sm:text-sm'>Depilacion</figcaption>
+        <figcaption className='text-sm'>Depilacion</figcaption>
       </figure>
 
       <figure className='services__icons'>
         <img src={exfoliacionIcon} alt='exfoliacion Icon' />
-        <figcaption className='sm:text-sm'>Exfoliacion</figcaption>
+        <figcaption className='text-sm'>Exfoliacion</figcaption>
       </figure>
 
       <figure className='services__icons'>
         <img src={cejasIcon} alt='cejas Icon' />
-        <figcaption className='sm:text-sm'>Tintado de cejas</figcaption>
+        <figcaption className='text-sm'>Tintado de cejas</figcaption>
       </figure>
 
       <figure className='services__icons'>
         <img src={pestañasIcon} alt='pestañas Icon' />
-        <figcaption className='sm:text-sm'>Colocacion de pestañas</figcaption>
+        <figcaption className='text-sm'>Colocacion de pestañas</figcaption>
       </figure>
     </article>
   );

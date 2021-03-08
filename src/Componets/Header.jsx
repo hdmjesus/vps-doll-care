@@ -7,8 +7,7 @@ const Header = () => {
 
   const handleMenu = () => {
     menuMobile.current.classList;
-    menuMobile.current.classList.toggle('hidden');
-    menuMobile.current.classList.toggle('slideDown');
+    menuMobile.current.classList.toggle('move');
   };
   return (
     <header className='w-full absolute top-0 right-0 left z-10   '>
@@ -43,17 +42,23 @@ const Header = () => {
       </div>
       <nav
         ref={menuMobile}
-        className='nav__mobile  bg-BGmenuMobile text-fontMenuMobile font-bold hidden  px-10 py-4'>
+        className='nav__mobile  bg-BGmenuMobile text-fontMenuMobile font-bold lg:hidden  px-10 py-4'>
         <ul>
           <li class='mb-1.5 hover:text-variants'>
-            <a href='#servicios'>Servicios</a>{' '}
+            <a href='#servicios' onClick={handleMenu}>
+              Servicios
+            </a>{' '}
           </li>
           <li class='mb-1.5 hover:text-variants'>
-            <a href='#contacto'>Contacto</a>
+            <a href='#contacto' onClick={handleMenu}>
+              Contacto
+            </a>
           </li>
           <li class='mb-1.5 hover:text-variants'>
             {' '}
-            <a href='#calificacion'>Calificanos</a>
+            <a href='#calificacion' onClick={handleMenu}>
+              Calificanos
+            </a>
           </li>
         </ul>
       </nav>
