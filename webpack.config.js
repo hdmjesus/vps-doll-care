@@ -10,8 +10,8 @@ const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
-  .BundleAnalyzerPlugin;
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
+//   .BundleAnalyzerPlugin;
 const config = {
   entry: { app: path.resolve(__dirname, './src/index.js') },
   output: {
@@ -118,7 +118,7 @@ const config = {
     new CopyPlugin({
       patterns: [{ from: 'src/statics/IMG', to: 'images' }],
     }),
-    new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin(),
   ],
   optimization: {
     minimizer: [new TerserPlugin(), new OptimizeCSSAssetsPlugin()],
