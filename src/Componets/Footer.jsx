@@ -15,7 +15,9 @@ const Footer = () => {
         Esta pagina web fue creada por{' '}
         <a
           className='text-blue-500 underline'
-          href='www.hdjesus.com'
+          href='https://www.hdjesus.com'
+          rel='noopener'
+          rel='noreferrer'
           target='__blank'>
           hdjesus
         </a>
