@@ -20,27 +20,27 @@ const ServicesImages = () => {
     <article className='services flex flex-wrap justify-center'>
       <picture class='service__images'>
         <source media='(min-width:768px)' srcset={exfoliacionDesktop} />
-        <img src={exfoliacionMobile} alt='Servicio de exfoliacion' />
+        <img className="object-cover" src={exfoliacionMobile} alt='Servicio de exfoliacion' />
       </picture>
 
       <picture class='service__images'>
         <source media='(min-width:768px)' srcset={facialDesktop} />
-        <img src={facialMobile} alt='Servicio de limpieza facial' />
+        <img className="object-cover" src={facialMobile} alt='Servicio de limpieza facial' />
       </picture>
 
       <picture class='service__images'>
         <source media='(min-width:768px)' srcset={pestañaslDesktop} />
-        <img src={pestañasMobile} alt='Servicio de pestañas' />
+        <img className="object-cover"  src={pestañasMobile} alt='Servicio de pestañas' />
       </picture>
 
       <picture class='service__images'>
         <source media='(min-width:768px)' srcset={depilacionDesktop} />
-        <img src={depilacionMobile} alt='Servicio de depilacion' />
+        <img className="object-cover"  src={depilacionMobile} alt='Servicio de depilacion' />
       </picture>
 
       <picture class='service__images'>
         <source media='(min-width:768px)' srcset={cejasDesktop} />
-        <img src={cejasMobile} alt='Servicio de tintado de cejas' />
+        <img className="object-cover"  src={cejasMobile} alt='Servicio de tintado de cejas' />
       </picture>
     </article>
   );
